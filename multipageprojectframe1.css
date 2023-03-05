@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: #f0f4f5;
+    background-image: url("stethoscope.png");
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.medifine{
+    margin-left: 110px;
+    margin-top: 25px;
+}
+.home ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    font-weight: 550;
+    font-size: 17px;
+}
+.home{
+    margin-right: 200px;
+    margin-top: 40px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.left h1{
+    font-size: 60px;
+}
+.left p{
+    font-size: 20px;
+}
+.healthcare{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    color: white;
+    background-color: #31cd99;
+    border-radius: 40px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.bottomangleimg{
+    margin-left: 411px;
+    width: 28px;
+    height: 28px;
+}
+.mouseimg{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.topangleimg{
+    margin-left: 80px;
+    margin-top: 150px;
+    size: 10px;
+}
+.right{
+    background-image: url("greenBox.png");
+    justify-content: right;
+}
+.greenbox, .yellowbox {
+    position: absolute;
+    right: 0;
+}
+.greenbox{
+    width: 35%;
+    bottom: 30px;
+}
+.yellowbox{
+    width: 25.5%;
+    bottom: 50px;
+}
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
